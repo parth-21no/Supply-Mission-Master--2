@@ -28,7 +28,7 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	basket1 = createSprite(400,600,400,10);
+	basket1 = createSprite(400,650,400,10);
 	basket1.shapeColor=color("red");
 
 	basket2 = createSprite(200,620,10,100);
@@ -52,7 +52,7 @@ function setup() {
     basket3 = Bodies.rectangle(width/2, 800, width, 10 , {isStatic:true} );
 	 World.add(world, basket3);
 	
-	 basket1 = Bodies.rectangle(width/2, 580, width, 10 , {isStatic:true} );
+	 basket1 = Bodies.rectangle(width/2, 630, width, 10 , {isStatic:true} );
 	 World.add(world, basket1);
 
 	 basket2 = Bodies.rectangle(width/2, 700, width, 10 , {isStatic:true} );
